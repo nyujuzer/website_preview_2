@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+}
+
+#logo{
+	background: bisque;
+	display: flex;
+	flex-direction: row;
+	padding-top: 10%;
+	font-size: 100px;
+}
+
+#logo p{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#logo img{
+	width: 100px;
+	height: 100px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main{
+	background: bisque;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+
+}
+#excl img{
+	width: 20px;
+	height: 20px;
+}
+a.hide{
+	position: relative;
+	z-index: 2;
+}
+a.hide:hover{
+	z-index: 3;
+}
+a.hide span.show{
+	display: none;
+}
+a.hide:hover span.show{
+display: block;
+color: black;
+font-size: 15px;
+}
